@@ -84,7 +84,8 @@ This program sets a password (minimum of 8 characters), confirms the password, a
    - If password matches, print "Access Granted".
    - If `'x'`, print "Exited"; **Stop**.
    - Else, print "Wrong Password".
-7. **Stop**
+   - loop repeats untill x is entered.
+
 
 
 ## Program 5 While Loop: Reverse an Entered Number
