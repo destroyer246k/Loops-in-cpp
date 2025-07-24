@@ -132,3 +132,137 @@ The program reverses the number simply by taking digits from the last and printi
    - Print the digit.
    - Floor divide number by 10.
 4. **Stop**
+
+## Nested For
+
+**Explanation:**  
+This program shows how nested loops work in C++. The outer loop runs twice, and for each iteration, the inner loop runs three times, printing "Outer" and "Inner" values to demonstrate flow control.
+
+**Algorithm:**
+1. Start program.
+2. Loop i from 1 to 2.
+3. Print outer loop value.
+4. Loop j from 1 to 3.
+5. Print inner loop value.
+6. End inner loop.
+7. End outer loop.
+8. End program.
+
+
+
+## Simple Pyradmid
+
+**Explanation:**  
+Prints a left-aligned triangle of stars. The outer loop runs n times, and for each row, the inner loop prints stars equal to the row number, forming an incremental star pattern line by line.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Loop i from 1 to n.
+4. Loop j from 1 to i.
+5. Print star.
+6. End inner loop.
+7. Move to new line.
+8. End program.
+
+
+
+## Flipped Simple Pyramid 
+
+**Explanation:**  
+Prints a right-aligned triangle. For each row, spaces are printed first to push the stars to the right, then stars are printed in increasing order using nested loops, creating a slanted effect.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Loop i from 1 to n.
+4. Print `n-i` spaces.
+5. Print i stars.
+6. Move to new line.
+7. End loop.
+8. End program.
+
+
+
+## Inverted Pyramid
+
+**Explanation:**  
+This pattern prints a left-aligned inverted triangle of stars. The number of stars decreases with each row by looping from the current row index to n, using simple nested `for` loops.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Loop i from 1 to n.
+4. Loop j from i to n.
+5. Print star.
+6. End inner loop.
+7. Move to new line.
+8. End program.
+
+
+
+## Flipped Inverted Pyramid
+
+**Explanation:**  
+Prints a right-aligned inverted pyramid. For each row, spaces increase and stars decrease. Two nested loops manage alignment and content, producing a flipped triangle descending towards the bottom.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Loop i from 1 to n.
+4. Print i-1 spaces.
+5. Loop from i to n to print stars.
+6. Move to new line.
+7. End loop.
+8. End program.
+
+
+
+## Flyod Number
+
+**Explanation:**  
+This program prints Floyd’s triangle using numbers. A counter starts from 1 and prints increasing numbers row-wise, with each row containing one more number than the last using nested loops.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Set counter c = 1.
+4. Loop i from 1 to n.
+5. Loop j from 1 to i.
+6. Print and increment c.
+7. Move to new line.
+8. End program.
+
+
+
+## Flyod Alphabets
+
+**Explanation:**  
+Prints a Floyd-like triangle with alphabets. Starting from 'A', it prints increasing characters row-wise. Each row contains one more alphabet than the previous, using a character counter and nested loops.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Set character c = 'A'.
+4. Loop i from 1 to n.
+5. Loop j from 1 to i.
+6. Print and increment character.
+7. Move to new line.
+8. End program.
+
+
+
+## Hour Glass
+
+**Explanation:**  
+This program prints an hourglass pattern using stars. The first loop creates an inverted triangle and the second creates a normal triangle, both using spacing for alignment and nested loops for pattern control.
+
+**Algorithm:**
+1. Start program.
+2. Input n.
+3. Loop i from 1 to n (top half).
+4. Print i-1 spaces and decreasing stars.
+5. Loop i from 2 to n (bottom half).
+6. Print n-i spaces and increasing stars.
+7. Move to new line after each row.
+8. End program.
