@@ -31,6 +31,38 @@ while(condition) {
 ```
 - Each iteration checks the condition **before running the code** within the loop.
 - If the condition is false at the first check, the loop body may not execute or be traversed at all.It repeats untill condition is updated to **false** in while loop.
+## Nested for Loop in C++
+
+A nested for loop is just a loop inside another loop. A nested for loop is appropriate when you have an action that has to be repeated inside a multi-level structure, like if you are dealing with grids or patterns.
+
+### Syntax
+
+```cpp
+for(initialization1; condition1; update1) {
+    for(initialization2; condition2; update2) {
+        // inner loop statements
+    }
+    // outer loop statements
+}
+```
+## Pattern Printing in C++
+Pattern printing in C++ involves using nested loops to display output in structured shapes using characters, numbers, or symbols.
+
+## Types of Patterns
+
+- Simple Triangle
+- Inverte Triangle
+- Flipped Simple Triangle
+- Flipped Inverted Triangle
+- Pyramid Pattern
+- Hour Glass
+- Inverted Pyramid Pattern
+- Half Diamond Pattern
+- Inverted Number Triangle
+- Floyd’s Triangle
+- Character Triangle
+- Diamond Pattern
+
 
 ## Program 1 For Loop: Print Even Numbers up to 10    
 In this program, we will print the even numbers from 0 to 10 using a **for loop**, which will iterate from 0 to 10. The **if statement** will check to see if the number is divisible by 2.
